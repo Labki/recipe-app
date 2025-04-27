@@ -1,0 +1,81 @@
+// src/assets/data/recipes.js
+export default [
+  {
+    id: "1",
+    title: "Spaghetti Bolognese",
+    thumbnail: require("../images/spaghetti.png"),
+    description:
+      "A classic Italian pasta dish with a rich, meaty tomato sauce.",
+    ingredients: [
+      "200g spaghetti",
+      "2 tbsp olive oil",
+      "1 small onion, finely chopped",
+      "2 cloves garlic, minced",
+      "100g minced beef",
+      "400g canned tomatoes",
+      "2 tbsp tomato paste",
+      "1 tsp dried oregano",
+      "Salt and pepper to taste",
+      "Fresh basil leaves (optional)",
+    ],
+    steps: [
+      "Bring a large pot of salted water to a boil and cook the spaghetti according to package instructions.",
+      "Meanwhile, heat olive oil in a pan over medium heat. Add the onion and garlic and sauté until translucent.",
+      "Add the minced beef and cook until browned, breaking it up with a spoon.",
+      "Stir in the canned tomatoes, tomato paste, and oregano. Season with salt and pepper.",
+      "Reduce heat and simmer for 10–15 minutes, stirring occasionally.",
+      "Drain the pasta, toss with the sauce, and serve topped with fresh basil if you like.",
+    ],
+  },
+  {
+    id: "2",
+    title: "Chicken Curry",
+    thumbnail: require("../images/curry.png"),
+    description:
+      "A flavorful curry with tender chicken pieces simmered in a spiced sauce.",
+    ingredients: [
+      "2 tbsp vegetable oil",
+      "1 onion, sliced",
+      "3 cloves garlic, minced",
+      "1 tbsp fresh ginger, grated",
+      "500g chicken breast, cut into cubes",
+      "2 tbsp curry powder",
+      "1 tsp ground turmeric",
+      "400ml coconut milk",
+      "1 can diced tomatoes",
+      "Salt and pepper to taste",
+      "Fresh cilantro, chopped (for garnish)",
+    ],
+    steps: [
+      "Heat oil in a large skillet over medium heat. Add onion, garlic, and ginger, and sauté until soft.",
+      "Add the chicken cubes and brown on all sides.",
+      "Stir in curry powder and turmeric, coating the chicken evenly.",
+      "Pour in the coconut milk and diced tomatoes, then season with salt and pepper.",
+      "Bring to a gentle simmer, cover, and cook for 15–20 minutes until the chicken is cooked through.",
+      "Garnish with chopped cilantro and serve with rice or naan.",
+    ],
+  },
+  {
+    id: "3",
+    title: "Avocado Toast",
+    thumbnail: require("../images/avocado.png"),
+    description:
+      "Quick and healthy avocado toast topped with fresh veggies and seasoning.",
+    ingredients: [
+      "2 slices of bread (your choice)",
+      "1 ripe avocado",
+      "1 tbsp lemon juice",
+      "Salt and pepper to taste",
+      "Chili flakes (optional)",
+      "Cherry tomatoes, halved (optional)",
+      "Microgreens or fresh herbs (optional)",
+    ],
+    steps: [
+      "Toast the bread slices to your preferred level of crispiness.",
+      "In a bowl, mash the avocado with lemon juice, salt, and pepper.",
+      "Spread the avocado mash evenly over each slice of toast.",
+      "Top with cherry tomatoes, chili flakes, and microgreens if using.",
+      "Serve immediately.",
+    ],
+  },
+];
